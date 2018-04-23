@@ -24,8 +24,8 @@
     <Compile Include="ananame.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="lastNames.xlsx" />
-    <Content Include="properNames.xlsx" />
+    <Content Include="lastNamescsv.csv" />
+    <Content Include="properNamescsv.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
