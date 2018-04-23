@@ -81,5 +81,10 @@ if len(nameAnagrams) > 0:
 
     for nameAnagram in nameAnagrams:
         print("\t{}".format(nameAnagram))
+
+    with open("anagrams_{}_{}_{}_({}).txt".format(firstName, middleName, lastName, gender), "w") as anagramFile:
+        for nameAnagram in nameAnagrams:
+            anagramFile.write("{}\r\n".format(nameAnagram))
+
 else:
     print("We didn't find any anagrams for you. :(")
